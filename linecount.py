@@ -5,3 +5,4 @@ def file_len(fname):
     return i + 1
 
 print(file_len("hej.txt"))
+print("hello")
