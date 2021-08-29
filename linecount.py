@@ -6,3 +6,4 @@ def file_len(fname):
 
 print(file_len("hej.txt"))
 print("hello")
+print("bird")
