@@ -6,7 +6,7 @@ encryptedString = ""
 
 for currentCharacter in stringToEncrypt:
     position = alphabet.find(currentCharacter)
-    newPosition = position + shiftAmount
+    newPosition = position - shiftAmount
     if currentCharacter in alphabet:
         encryptedString = encryptedString + alphabet[newPosition]
     else:

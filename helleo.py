@@ -1,8 +1,7 @@
-hello = int(input("välj ett numer: "))
+träd = ["hej","banan"]
 
-count = 1
+hej = 0 
+banan = 1
 
-while count <= 10:
-    hej = hello * count
-    print(hello, "x", count, "=", hej)
-    count = count + 1
+print (hej)
+print (banan)

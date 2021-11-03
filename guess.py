@@ -2,8 +2,8 @@
 
 
 
-svar = "SAMI"
-print ("gissa vad jag heter")
+svar = "sami"
+
 
 print ("Ett tips:") 
 print ()  
@@ -13,15 +13,13 @@ print ("Macka")
 print ("Is")
 print ()
 print ()
-gissa =("inget")
+hej = input ("gissa vad jag heter")
 
-while gissa != svar:
-    gissa = input ("vad är mitt namn?").upper ()
-    print ()
-    if gissa != "SAMI":
-        print ("Nej Det är fel.")
-        
-    print ("Det är rätt!")
+if hej == svar:
+    print (" bara jobbat du klarade det")
+
+else:
+    print ("du har misslykats")
 
 
 
